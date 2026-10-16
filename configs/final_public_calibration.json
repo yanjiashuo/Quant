@@ -1,0 +1,16 @@
+{
+  "name": "final_public_best_calibration",
+  "base": "reproducible_15_member_positive_ridge",
+  "component_calibration": {
+    "global": 1.0,
+    "time_level": 0.8,
+    "asset_level": 1.0,
+    "residual": 1.0,
+    "test_weight": "uniform"
+  },
+  "mean_preserving_std": 0.046,
+  "public_score": 0.00394663,
+  "submission_md5": "af73e511bf2b1814598b248598b9d89c",
+  "submission_sha256": "9ece9cb33ec11c2b6e5336243a0eb2ebaa701f2661a7d61ad240812e5ea1dcf8",
+  "note": "The final public model differs from the byte-identical 0.0039380 anchor only by prediction-level component calibration. The large CSV is intentionally excluded."
+}

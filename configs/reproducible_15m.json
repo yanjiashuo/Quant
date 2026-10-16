@@ -1,0 +1,40 @@
+{
+  "name": "reproducible_15_member_positive_ridge",
+  "members": [
+    "factor",
+    "contrast",
+    "level_pred",
+    "rolling_v1",
+    "cs_rank",
+    "model_c_long",
+    "csrd_resid",
+    "csrd5_resid",
+    "csrv_resid",
+    "asset_demean",
+    "double_demean",
+    "double_demean_assetaware",
+    "mlp_ad",
+    "mlp_member",
+    "mlp_deep"
+  ],
+  "ridge": {
+    "alpha": 0.01,
+    "positive": true,
+    "fit_intercept": false,
+    "member_scaling": "population_std_ddof_0"
+  },
+  "output": {
+    "mean_preserving_std": 0.046
+  },
+  "walk_forward": {
+    "fold7_train": [6],
+    "fold8_train": [6, 7],
+    "public_train": [6, 7, 8]
+  },
+  "fold7_score": 0.0023311769855363096,
+  "fold8_score": 0.002452562463019836,
+  "public_score": 0.003938,
+  "submission_md5": "92ef61c93ac86f14f606f0ea0bc66dd0",
+  "submission_sha256": "ae254141a97dafd20ba0b885c2351c5273e51128eede8c808804f996fd44df2f",
+  "upstream_commit": "0ad2c976d02ff3fc2d1965b5cb0a484800503470"
+}
